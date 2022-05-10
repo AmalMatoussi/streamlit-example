@@ -21,16 +21,6 @@ with st.echo():
     import pandas as pd
 
 
-
-    # In[7]:
-
-
-    ee.Initialize()
-
-
-    # In[24]:
-
-
     Map= geemap.Map(center=(36, 9), zoom=4)
     Map.add_basemap('HYBRID')
     Map
