@@ -10,7 +10,6 @@ st.markdown('Source code: <https://github.com/giswqs/geemap-streamlit/blob/main/
 
 with st.echo():
         #imports
-    import geemap
     import os
     import ee
     import ipywidgets as widgets
@@ -755,4 +754,4 @@ with st.echo():
                 print('An error occurred during computation.')
 
     plot.on_click(plot_clicked)
-    folium_static(m)
+    folium_static(Map)
