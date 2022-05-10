@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_folium import folium_static
-import geemap.eefolium as geemap
+import geemap
 import ee
 
 # os.environ["EARTHENGINE_TOKEN"] == st.secrets["EARTHENGINE_TOKEN"]
@@ -754,4 +754,4 @@ with st.echo():
                 print('An error occurred during computation.')
 
     plot.on_click(plot_clicked)
-    folium_static(Map)
+    #folium_static(Map)
